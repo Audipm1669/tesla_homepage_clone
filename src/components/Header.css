@@ -9,3 +9,33 @@
     margin-top: 15px;
     z-index: 100;
 }
+
+.header__logo{
+    height: 24px;
+    width: 100px;
+    margin-top: 7px;
+}
+
+.header__center{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.header__center>p{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.header__right{
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+}
+
+.header__right>p{
+    margin: 10px;
+    
+}
+

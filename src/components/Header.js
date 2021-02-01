@@ -9,7 +9,7 @@ const Header = () => {
                 <img src={TeslaLogo} alt=""/>
             </div>
 
-            <div className="header__content">
+            <div className="header__center">
                 <p>Model S</p>
                 <p>Model 3</p>
                 <p>Model X</p>
