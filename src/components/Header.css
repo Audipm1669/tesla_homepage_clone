@@ -29,13 +29,13 @@
 }
 
 .header__right{
+    margin: 0 30px;
     display: flex;
     justify-content: flex-end;
     text-transform: uppercase;
 }
 
 .header__right>p{
-    margin: 10px;
-    
+    margin: 10px;    
 }
 

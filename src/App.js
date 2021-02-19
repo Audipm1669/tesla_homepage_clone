@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div className="app__itemContainer">
+      <div className="app__itemsContainer">
         <Item
           title='Model S'
           desc='Order Online for Touchless Delivery'
@@ -25,7 +25,6 @@ function App() {
           rightBtnTxt='EXISTING INVENTORY'
           rightBtnLink=''
           twoButtons='true'
-          first
         />
         <Item
           title='Model Y'
@@ -37,7 +36,6 @@ function App() {
           rightBtnTxt='LEARN MORE'
           rightBtnLink=''
           twoButtons='true'
-          first
         />
         <Item
           title='Model 3'
@@ -49,7 +47,6 @@ function App() {
           rightBtnTxt='EXISTING INVENTORY'
           rightBtnLink=''
           twoButtons='true'
-          first
         />
         <Item
           title='Model X'
@@ -61,7 +58,6 @@ function App() {
           rightBtnTxt='EXISTING INVENTORY'
           rightBtnLink=''
           twoButtons='true'
-          first
         />
         <Item
           title='Lowest Cost Solar Panels in America'
@@ -73,7 +69,6 @@ function App() {
           rightBtnTxt='LEARN MORE'
           rightBtnLink=''
           twoButtons='true'
-          first
         />
         <Item
           title='Solar for New Roofs'
@@ -85,7 +80,6 @@ function App() {
           rightBtnTxt='LEARN MORE'
           rightBtnLink=''
           twoButtons='true'
-          first
         />
         <Item
           title='Accessories'
@@ -97,7 +91,6 @@ function App() {
           rightBtnTxt=''
           rightBtnLink=''
           twoButtons='false'
-          first
         />
       </div>
     </div>
